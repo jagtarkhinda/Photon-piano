@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         c1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"C2,8\"";
+                String commandToSend = "C3";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         cd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"C5,8,D5,8\"";
+                String commandToSend = "C4";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         d.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"D3,8\"";
+                String commandToSend = "D4";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         de.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"D5,8,E5,8\"";
+                String commandToSend = "E4";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         e.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"E5,8\"";
+                String commandToSend = "F4";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
         f.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"F6,8\"";
+                String commandToSend = "G4";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         fg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"F5,8,G5,8\"";
+                String commandToSend = "A4";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         g.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"G7,8\"";
+                String commandToSend = "B4";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
         ga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"G5,8,A5,8\"";
+                String commandToSend = "C5";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity {
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"A5,8\"";
+                String commandToSend = "D5";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
@@ -157,7 +157,7 @@ public class MainActivity extends AppCompatActivity {
         ab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"A5,8,B5,8\"";
+                String commandToSend = "E5";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"B4,8\"";
+                String commandToSend = "F5";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity {
         c2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String commandToSend = "\"C1,8\"";
+                String commandToSend = "G5";
                 Log.d(TAG, "Command to send to particle: " + commandToSend);
                 deviceData(commandToSend);
             }
