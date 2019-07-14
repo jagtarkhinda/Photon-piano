@@ -23,8 +23,8 @@ void loop(){
 
 int getPianoKey(String command)
 {
-
-    b.playSong(command);
+    //yyyy
+    b.playNote(command,4);
     return 1;
 }
 
